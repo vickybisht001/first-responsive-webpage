@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Water+Brush&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #2874f0;
+}
+
+.navbar ul li {
+  position: relative;
+}
+
+.navbar ul li:hover .dropdown-menu {
+  position: absolute;
+  top: 28px;
+  left: 16px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.dropdown-item {
+  color: white;
+}
+.dropdown-menu {
+  display: none;
+}
+
+.form-control:hover{
+  border: 2.8px solid  rgba(0, 0, 0, 0.4);
+}
+
+.heading {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+footer {
+  background-color: #2874f0;
+  height: 18vh;
+}
+
+.fa-brands {
+  font-size: 25px;
+  font-weight: 900;
+  color: white;
+}
+.com {
+  color: white;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+/* CONTACT HTML,CSS */
+
+.list-inline-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+}
